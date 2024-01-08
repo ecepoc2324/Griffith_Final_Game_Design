@@ -380,6 +380,7 @@
 "Assets/GameUIScript.cs"
 "Assets/InteractWithPlayerAnimation.cs"
 "Assets/MushroomScript.cs"
+"Assets/NavMeshEnemy.cs"
 "Assets/NavMeshEnemy1.cs"
 "Assets/PickUpScript.cs"
 "Assets/Scripts/FinalGroundCheck2.cs"
@@ -417,6 +418,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/Week2GroundCheck.cs"
 -langversion:9.0
 
 /deterministic

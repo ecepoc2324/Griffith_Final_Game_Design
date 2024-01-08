@@ -10,9 +10,9 @@ public class BasicCharacterController : MonoBehaviour
     public GameObject child;
     public float rotateSpeed;
     public float rotationSensitivity;
+    public Week2GroundCheck groundcheck;
 
     public float jumpForce;
-    public GameObject groundcheck;
     public Animator playerAnimator;
     // Start is called before the first frame update
     void Start()
@@ -34,13 +34,13 @@ public class BasicCharacterController : MonoBehaviour
             child.transform.rotation=Quaternion.Slerp(child.transform.rotation, Quaternion.LookRotation(moveDirection), Time.deltaTime*rotateSpeed);
         }
         
-        if(Input.GetButtonDown("Jump") && groundcheck.GetComponent<Exercise2GroundCheck>().amIOnTheGround==true)
+        if(Input.GetButtonDown("Jump") && groundcheck.GetComponent<Week2GroundCheck>().amIOnTheGround==true)
         {
             playerRigidbody.AddForce(0,jumpForce,0);
         }
       
       playerAnimator.SetFloat("speed",moveDirection.magnitude);
-      playerAnimator.SetFloat("verticalSpeed",playerRigidbody.velocity.y);
-      playerAnimator.SetBool("amIGrounded",groundcheck.GetComponent<Exercise2GroundCheck>().amIOnTheGround);
+      playerAnimator.SetFloat("verticalSpeed",playerRigidbody.velocity.y); 
+      playerAnimator.SetBool("amIGrounded", groundcheck.GetComponent<Week2GroundCheck>().amIOnTheGround);
     }
 }
