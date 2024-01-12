@@ -5940,12 +5940,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 962575549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ab7d3b2cedcee04492f3aea7f2d1e95, type: 3}
+  m_Script: {fileID: 11500000, guid: 6032d13c1a743ca409e3dc63c3b888f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 6755474}
-  scoreText: {fileID: 0}
+  pauseMenu: {fileID: 1328512336}
+  scoreText: {fileID: 831724720}
   score: 0
+  yay: {fileID: 0}
+  specialPickups: []
+  specialPickup: 0
+  numberofSpecialForInvincibility: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
