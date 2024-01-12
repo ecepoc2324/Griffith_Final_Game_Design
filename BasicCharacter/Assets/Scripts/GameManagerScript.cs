@@ -9,11 +9,11 @@ public class GameManagerScript : MonoBehaviour
     public GameObject pauseMenu;
     public TMP_Text scoreText;
     public int score;
-    public TMP_Text Congratulations;
+    public TMP_Text congratulations;
 
     public GameObject[] pickUps;
-    public int PickUp;
-    public int numberofTireForInvincibility;
+    public int pickUp;
+    public int numberofPickForInvincibility;
 
     // Start is called before the first frame update
     void Start()
@@ -31,11 +31,11 @@ public class GameManagerScript : MonoBehaviour
         pauseMenu.SetActive(true);
       }  
 
-      if(PickUp==numberofTireForInvincibility)
+      if(pickUp==numberofPickForInvincibility)
       {
-        Congratulations.gameObject.SetActive(true);
-        Congratulations.text = "Congratulations";
-        PickUp=0;
+        congratulations.gameObject.SetActive(true);
+        congratulations.text = "Congratulations";
+        pickUp=0;
       }  
 
     }

@@ -6,10 +6,13 @@ Materials:
 - Corrugated steel: https://ambientcg.com/view?id=CorrugatedSteel005 
 - Diamond plate: https://ambientcg.com/view?id=DiamondPlate008B
 - Concrete texture: https://ambientcg.com/view?id=Concrete030
--Formula 1 car poster: https://www.pexels.com/tr-tr/fotograf/lastik-hizli-motor-sporu-hiz-14681398/
+- Tire track: https://ambientcg.com/view?id=TireTracks001
+- Formula 1 car poster: https://www.pexels.com/tr-tr/fotograf/lastik-hizli-motor-sporu-hiz-14681398/
+- Formula 1 poster 2: https://www.pexels.com/tr-tr/fotograf/monako-saray-motor-sporu-muze-15350765/
+- Formula 1 poster 3: https://www.pexels.com/tr-tr/fotograf/hareket-motor-sporu-hiz-aksiyon-14681392/
 
-The level design belongs to me. 
-- Doors and stairs were used from Probuilder's library. 
+The level design and the design of tires belong to me. 
+- Doors and stairs were used from Unity Probuilder's library. 
 
 Camera: 
 -Cinemamachine Freelook Camera
